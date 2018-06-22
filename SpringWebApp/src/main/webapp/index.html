@@ -1,0 +1,47 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Dancing Script'
+	rel='stylesheet'>
+<style>
+body {
+	font-family: 'Dancing Script';
+	font-size: 22px;
+	line-height: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+input {
+	height: 60px;
+	border-radius: 30px;
+	width: 180px;
+	font-family: 'Dancing Script';
+	font-size: 22px;
+	line-height: 50px;
+}
+
+#button1 {
+	background-color: #e97ac7f5;
+}
+
+#button2 {
+	background-color: #bc43ef;
+}
+</style>
+</head>
+<body>
+	<div class="center">
+		<h2>
+			Hello User!<br />Please click on one of the following links
+		</h2>
+			<input type="submit" onclick="location.href='/SpringWebApp/order/newOrder'" id="button1" value="Create a new Order" />
+
+			<input type="submit"  onclick="location.href='/SpringWebApp/order/listAll'" id="button2" value="View all Orders" />
+
+	</div>
+
+</body>
+
+</html>
